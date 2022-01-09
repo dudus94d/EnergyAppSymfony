@@ -10,3 +10,11 @@
         {% block body %}{% endblock %}
     </body>
 </html>
+
+{% block javascripts %}
+    <script src="{{ asset('build/global.js') }}"></script>
+{% endblock %}
+
+{% block stylesheets %}
+    <link href="{{ asset('build/global.css') }}" rel="stylesheet">
+{% endblock %}
